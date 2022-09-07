@@ -28,6 +28,10 @@
       "type": "page-title",
       "title": "Luana Werneck - Terapia Capilar",
       "description": "Clínica referência em recuperação e saúde capilar personalizada. Atendimento Premium. Promovendo autoestima e qualidade de vida"
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
