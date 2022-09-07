@@ -8,11 +8,20 @@
       "enabled": true
     },
     {
-      "type": "page-title"
+      "type": "page-title",
+      "title": "Blog"
     },
     {
-      "type": "blog",
-      "enabled": true
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner1.png"
+        }
+      ]
     }
   ]
 }
