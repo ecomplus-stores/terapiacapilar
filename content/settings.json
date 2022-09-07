@@ -3,24 +3,24 @@
   "currency_symbol": "R$",
   "primary_color": "#827a04",
   "theme": {
-    "bootswatch": "lumen",
-    "custom": "clean-white"
+    "bootswatch": "simplex",
+    "custom": "niche-flowers"
   },
-  "bg_color": "#ffffff",
+  "bg_color": "#827a04",
   "repository": "ecomplus-stores/terapiacapilar",
   "logo": "/img/uploads/lgo_lw_pantone-335.png",
-  "name": "terapiacapilar",
-  "short_name": "terapiacapilar",
+  "name": "LW Terapia Capilar",
+  "short_name": "Luan Wernek - Terapia Capilar",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
   "font_family": "Quicksand",
   "favicon": "/img/uploads/lgo_lw_pantone-335.png",
-  "icons_font": "feather-icons",
+  "icons_font": "bootstrap-icons",
   "country_code": "BR",
-  "secondary_color": "#80e0a7",
+  "secondary_color": "#827a04",
   "icon": "/img/uploads/lgo_lw_pantone-335.png",
   "store_id": 51294,
-  "description": "terapiacapilar",
+  "description": "lorem ipsum ",
   "large_icon": "/img/uploads/lgo_lw_pantone-335.png"
 }
