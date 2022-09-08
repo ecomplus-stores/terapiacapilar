@@ -32,6 +32,13 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6319efe873321213f86bcbb1:categories:Serviços de terapia capilar:/servicos-de-terapia-capilar"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
       "limit": 10,
       "page": 1,
       "collection_id": "6319ee9873321213f86bc916:categories:Shampoos:/shampoos",
