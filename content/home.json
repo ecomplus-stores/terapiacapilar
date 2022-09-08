@@ -32,10 +32,11 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 10,
       "page": 1,
       "collection_id": "6319ee9873321213f86bc916:categories:Shampoos:/shampoos",
-      "headless": false
+      "headless": false,
+      "sort": "slug"
     }
   ]
 }
