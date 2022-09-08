@@ -30,8 +30,12 @@
       "description": "Clínica referência em recuperação e saúde capilar personalizada. Atendimento Premium. Promovendo autoestima e qualidade de vida"
     },
     {
-      "type": "blog",
-      "enabled": true
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6319ee9873321213f86bc916:categories:Shampoos:/shampoos",
+      "headless": false
     }
   ]
 }
