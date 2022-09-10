@@ -4,24 +4,12 @@
   "meta_description": "Blog",
   "sections": [
     {
-      "type": "breadcrumbs",
-      "enabled": true
-    },
-    {
       "type": "page-title",
-      "title": "Blog"
+      "title": "Nossos Serviços "
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner1.png"
-        }
-      ]
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
