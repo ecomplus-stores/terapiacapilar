@@ -4,7 +4,7 @@
   "primary_color": "#007a64",
   "theme": {
     "bootswatch": "simplex",
-    "custom": "niche-flowers"
+    "custom": "_"
   },
   "bg_color": "#827a04",
   "repository": "ecomplus-stores/terapiacapilar",
