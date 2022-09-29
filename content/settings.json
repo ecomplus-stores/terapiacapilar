@@ -1,7 +1,7 @@
 {
   "domain": "terapiacapilar.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#827a04",
+  "primary_color": "#007a64",
   "theme": {
     "bootswatch": "simplex",
     "custom": "niche-flowers"
@@ -18,7 +18,7 @@
   "favicon": "/img/uploads/lgo_lw_pantone-335.png",
   "icons_font": "bootstrap-icons",
   "country_code": "BR",
-  "secondary_color": "#827a04",
+  "secondary_color": "#007a64",
   "icon": "/img/uploads/lgo_lw_pantone-335.png",
   "store_id": 51294,
   "description": "lorem ipsum ",
