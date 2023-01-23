@@ -32,7 +32,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<style>\n</style>\n<div class='background-amarelinho'>\n  <img style='margin-top: 5%' class='minilogo' src='/img/uploads/minilogo1.png'>\n  <h2 class='super-title'>\n    BLOG LW\n  </h2>\n  \n</div>\n"
+      "html": "<style>\n  .allposts{\n  }\n  .post{\n  }\n  .post-img{\n  }\n  .post-description{\n  }\n</style>\n<div class='background-amarelinho'>\n  <img style='margin-top: 5%' class='minilogo' src='/img/uploads/minilogo1.png'>\n  <h2 class='super-title'>\n    BLOG LW\n  </h2>\n  \n  <div>\n  \n  </div>\n  \n</div>\n"
     }
   ]
 }
