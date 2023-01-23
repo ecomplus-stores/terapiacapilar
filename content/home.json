@@ -42,6 +42,10 @@
       "limit": 12,
       "page": 1,
       "collection_id": "6319ed2973321213f86bc606:categories:Chás:/chas"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/minilogo.png"
     }
   ]
 }
