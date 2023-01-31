@@ -2,5 +2,11 @@
   "title": "Sobre nós",
   "meta_title": "Sobre nós",
   "meta_description": "Sobre nós",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "### Lorem ipsum dolor sit amet",
+  "sections": [
+    {
+      "type": "custom-html",
+      "html": "<span>\n  testando\n</span>"
+    }
+  ]
 }
