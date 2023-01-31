@@ -1,4 +1,10 @@
 {
   "title": "Questionário",
-  "body": "Q﻿uestionário generated"
+  "body": "Q﻿uestionário generated",
+  "sections": [
+    {
+      "type": "custom-html",
+      "html": "<div>\n\n  <h3 >Terapia de Reabilitação Capilar</h3>\n  <div >\n    <div >\n     <img  src='/img/uploads/salao.jpeg'>    \n    \n    </div> \n    <div >\n      <div>\n        Lorem ipsum dolor sit amet, consectetur\n        adipiscing elit, sed do eiusmod tempor \n        incididunt ut labore et dolore magna aliqua.\n        Ut enim ad minim veniam, quis nostrud exercitation\n        ullamco laboris nisi ut aliquip ex ea commodo consequat.\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris\n        nisi ut aliquip ex ea commodo consequat.\n      </div>\n      <div >\n        <img src='/img/uploads/minilogo1.png'>\n        <div >\n          Para quem esse tratamento é indicado:\n        </div>\n      </div>\n      <div >\n        Lorem ipsum dolor sit amer, consectetur adpiscing elit,\n        sed e eiusmod tempor incididunt ut labore et. Lorem ipsum\n        dolor sit amer, consectetur adpiscing elit, koalis aturet\n        molas dart kao.\n      </div>\n      <div >\n        <img  src='/img/uploads/minilogo1.png'>\n        <div >\n          Tempo para execução do procedimento:\n        </div>\n      </div>\n      <div >\n        Lorem ipsum dolor sit amer, consectetur adpiscing elit\n      </div>\n      <div >\n        <div onClick=\"goToPage('https://terapiacapilar.netlify.app/sobre-nos')\" >\n            <span>AGENDAR ATENDIMENTO</span>\n        </div>\n      </div>\n  </div>\n    \n</div>"
+    }
+  ]
 }
