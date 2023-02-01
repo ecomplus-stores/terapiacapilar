@@ -5,17 +5,13 @@
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Serviços De Terapia Capilar",
-        "link": "https://terapiacapilar.netlify.app/pages/servicos"
-      }
     ],
     "phone_wpp": false,
     "socials": false
   },
   "categories_list": {
     "featured": [
-      "/servicos-de-terapia-capilar?Serviços de terapia capilar",
+      "/pages/servicos?Serviços de terapia capilar",
       "/sobre-nos?Sobre Nós",
       "/shampoos?Shampoos",
       "/chas?Chás",
