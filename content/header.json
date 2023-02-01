@@ -4,7 +4,12 @@
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {
+        "title": "Serviços De Terapia Capilar",
+        "link": "https://terapiacapilar.netlify.app/pages/servicos"
+      }
+    ],
     "phone_wpp": false,
     "socials": false
   },
