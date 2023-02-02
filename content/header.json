@@ -4,19 +4,12 @@
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   },
   "categories_list": {
-    "featured": [
-      "/pages/servicos?Serviços de terapia capilar",
-      "/pages/sobre-nos?Sobre Nós",
-      "/shampoos?Shampoos",
-      "/chas?Chás",
-      "/pages/faq?Perguntas Frequentes"
-    ],
+    "featured": [],
     "random": 10,
     "full_width": true
   },
