@@ -3,9 +3,10 @@ const posts = _.cms('posts')
 const themeCustom = _.settings.theme.custom || ''
 if (Array.isArray(posts) && posts.length) {
   %>
+
     <div class="blog my-4 my-lg-5">
       <div class="container">
-        <div class="row">
+        <div class="posts">
           <%
           const postsList = []
           posts.forEach(slug => { 
@@ -19,23 +20,22 @@ if (Array.isArray(posts) && posts.length) {
           postsList.forEach(post => { 
             const { title, slug, thumbnail, description, date } = post 
             %>
-            <div class="col col-md-6 col-lg-4">
-              <div class="card">
+              <div class="post">
                 <% if (thumbnail) { %>
                   <a href="/posts/<%= slug %>">
                     <img
                       src="<%= thumbnail %>"
-                      class="card-img-top"
+                      class="post-img"
                       alt="<%= title %>"
                     >
                   </a>
                 <% } %>
-                <div class="card-body">
+                <div class="post-content">
                   <span class="blog-post-date <%= themeCustom === 'ecom-beauty' ? '' : ' d-none' %>">
                     <% const postDate = _.ecomUtils.formatDate(date) %>
                     <%= postDate %>
                   </span>
-                  <h5 class="card-title">
+                  <h5 class="post-title">
                     <a href="/posts/<%= slug %>">
                       <%= title %>
                     </a>
@@ -49,13 +49,12 @@ if (Array.isArray(posts) && posts.length) {
                       <i class="i-chevron-right"></i>
                     </a>
                   <% } else { %>
-                    <p class="card-text">
+                    <p class="post-description">
                       <%= description %>
                     </p>
                   <% } %>
                 </div>
               </div>
-            </div>
           <% }) %>
         </div>
       </div>

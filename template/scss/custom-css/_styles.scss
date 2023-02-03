@@ -1,1 +1,57 @@
 // Add your custom CSS here.
+.allposts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+
+  .post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    width:100%;
+  }
+
+  .post-img {
+    width: 300px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .post-content {
+      width: 50%;
+    margin-left: 5%;
+  }
+
+  .post-title {
+    color: #333;
+    font-weight: Light;
+    font-size: 30px;
+    opacity: 1;
+    text-align: start;
+  }
+
+  .post-description {
+    color: #333;
+    font-weight: Light;
+    font-size: 16px;
+    opacity: 1;
+  }
+
+  .linha-divisora {
+    border-bottom: 0.5px solid #b6baad;
+    width: 100%;
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
