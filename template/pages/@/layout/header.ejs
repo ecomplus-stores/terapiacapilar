@@ -14,6 +14,39 @@ const networks = [
   'linkedin',
   'tiktok'
 ]
+// extrapages  
+// servicos de terapia capilar
+// sobre nós
+// Shampoos
+// chás
+// FAQ
+let baseURL = "http://localhost:9100";
+extraPages = [{
+  slug: '/servicos',
+  name: 'Serviços de Terapia Capilar',
+  _id: '0',
+},
+{
+  slug: '/sobre-nos',
+  name: 'Sobre Nós',
+  _id: '1',
+},
+{
+  slug: '/chas',
+  name: 'Chás',
+  _id: '2',
+},
+{
+  slug: '/shampoos',
+  name: 'Shampoos',
+  _id: '3',
+},
+  {
+  slug: '/FAQ',
+  name: 'Perguntas Frequentes',
+  _id: '4',
+}
+]
 
 // marketing stripe custom styles
 let marketingStripeStyle = ''
@@ -267,11 +300,11 @@ const fullWidthSubmenu = header.full_width_submenu
       <% if (categories && categories.length) { %>
         <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name, _id}) => { %>
+            <% extraPages.forEach(({ slug, name, _id}) => { %>
               <% let $categoryLink %>
               <div class="d-inline-block">
                 <a
-                  href="javascript:;"
+                  href="<%=`${baseURL}/pages${slug}`%>"
                   class="header__category"
                   id="cd-<%= _id %>"
                   <%- hasMegamenu
