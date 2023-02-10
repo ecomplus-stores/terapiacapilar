@@ -54,6 +54,32 @@
     width: 100%;
     margin-bottom: 7%;
     margin-top: 5%;
-  }    color: #007A64 !important;
+  }
+
+  .category-header:hover{
+    color: #007A64 !important;
     text-decoration: underline #007A64 !important;
   }
+
+  .new__menu__list{
+    padding-top: 40px;
+  }
+  .new__menu__item{
+    align-items: center;
+    border-bottom: var(--border-width) solid #007A64;
+    color: var(--primary);
+    display: flex;
+    padding: var(--spacer-3);
+    transition: background-color .15s;
+  }
+
+  .new__menu__item:hover{
+    background: rgba(121, 121, 121, 0.1);
+    opacity: 40%;
+    span{
+      color:#775010;
+      text-decoration: underline #775010;
+    }
+  }
+
+  

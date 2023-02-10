@@ -11,6 +11,34 @@ const networksWithColors = [
   ['twitter', '#1da1f2']
 ]
 
+let baseURL = "http://localhost:9100";
+extraPages = [{
+  slug: '/servicos',
+  name: 'Serviços de Terapia Capilar',
+  _id: '0',
+},
+{
+  slug: '/sobre-nos',
+  name: 'Sobre Nós',
+  _id: '1',
+},
+{
+  slug: '/chas',
+  name: 'Chás',
+  _id: '2',
+},
+{
+  slug: '/shampoos',
+  name: 'Shampoos',
+  _id: '3',
+},
+  {
+  slug: '/FAQ',
+  name: 'Perguntas Frequentes',
+  _id: '4',
+}
+]
+
 // start grouping categories by parent slug
 const allCategories = menu.alphabetical_order
   ? _.lodash.sortBy(_.categories, ['name'])
@@ -87,8 +115,8 @@ if (mainCategories) {
             </button>
           <% } %>
 
-          <div class="menu__list">
-            <% categoryParents[slug].forEach((subcategory, index) => { %>
+          <div class="new__menu__list">
+            <% extraPages.forEach((subcategory, index) => { %>
               <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
               <a
                 <% if (hasSubmenu) {
@@ -100,21 +128,11 @@ if (mainCategories) {
                   aria-expanded="false"
                   aria-controls="<%= submenuId %>"
                 <% } else { %>
-                  href="/<%= subcategory.slug %>"
+                  href="<%=`${baseURL}/pages${subcategory.slug}`%>"
                 <% } %>
                 id="c-<%= subcategory._id %>"
-                class="menu__item"
+                class="new__menu__item"
               >
-                <% if (subcategory.icon) { %>
-                  <span class="menu__item-icon">
-                    <img
-                      data-src="<%= subcategory.icon.url %>"
-                      alt="<%= subcategory.icon.alt || subcategory.name %>"
-                      class="lozad"
-                      data-preload="<%= (index * 200) %>"
-                    >
-                  </span>
-                <% } %>
                 <span>
                   <%= subcategory.name %>
                 </span>
