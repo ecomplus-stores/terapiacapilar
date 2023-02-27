@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.5b3f8a1836f71c5ffc8570a0abf54d51.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.2c79993e2d61abc36d39594f8c342d01.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.f0e1063172d69a0b2d3954ff21148dd4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.116a770d707b5ea35046fdd708f3eb08.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.d07cb5b688aad947e0a59124c083a083.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "LW Terapia Capilar",
+  "short_name": "Luan Wernek - Terapia Capilar",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "lorem ipsum ",
+  "background_color": "#827a04",
+  "theme_color": "#007a64"
+}
